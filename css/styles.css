@@ -23,6 +23,9 @@ body {
   margin: 0;
   font-family: "Hanken Grotesk", sans-serif;
   font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 :root {
   --primary--color: linear-gradient(#7755ff, #2f2ce9);
@@ -33,6 +36,7 @@ body {
   height: 809px;
   display: flex;
   flex-direction: column;
+  background-color: white;
 }
 
 .card__container {
@@ -50,7 +54,7 @@ body {
   color: #cac9ff;
 }
 
-.card-container--circle {
+.card__container--circle {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -105,7 +109,6 @@ body {
 .card__container--white {
   width: 375px;
   padding-left: 30px;
-  background-color: white;
   padding-bottom: 30px;
 }
 
@@ -175,4 +178,88 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+@media screen and (min-width:768px) {
+
+  body{
+    background-color:#ECF2FF ;
+  }
+
+  .card{
+    width: 736px;
+    height: 512px;
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    border-radius:32px ;
+  }
+
+  .card__container {
+    border-radius: 32px;
+    height: 512px;
+    width: 368px;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  .card__container--circle {
+    width: 200px;
+    height: 200px;
+  }
+  .card__tittle {
+    font-size: 24px ;
+  }
+
+  .card__number{
+    font-size: 72px;
+  }
+
+  .card__number--span {
+    font-size: 18px;
+  }
+
+  .card__tittle--white {
+    font-size: 32px;
+  }
+
+  .card__container--text {
+    margin-top: 28px ;
+  }
+
+  .card__text {
+    font-size: 16px ;
+    height: 69px;
+    width: 260px;
+    margin-top: 14px ;
+    padding-bottom: 55px;
+  }
+
+  .card__container--white {
+    height: 512px;
+    padding-left:40px ;
+    padding-bottom: 40px;
+    padding-top: 30px;
+  }
+
+  .card__container--small {
+    width: 288px;
+    height: 369px;
+  }
+
+  .card--small {
+    width:288px ;
+  }
+
+  .button {
+    width: 288px;
+    height: 56px;
+  }
+
+  .button:hover {
+    background-image: var(--primary--color);
+  }
+
+  
+
 }
