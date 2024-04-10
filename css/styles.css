@@ -44,7 +44,6 @@ body {
   border-radius: 0 0 32px 32px;
   background-image: var(--primary--color);
   color: white;
-  box-shadow: black;
 }
 .card__tittle {
   font-size: 18px;
