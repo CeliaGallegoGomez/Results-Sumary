@@ -76,7 +76,7 @@ body {
 }
 
 .card__number--small {
-  color: #303B59;
+  color: #303b59;
   font-size: 16px;
 }
 
@@ -147,7 +147,7 @@ body {
 }
 
 .card__span--small {
-  color: rgba(48, 59, 89, 40%) ;
+  color: rgba(48, 59, 89, 40%);
 }
 .card--red {
   color: #ff5555;
@@ -160,17 +160,17 @@ body {
 }
 
 .card--green {
-  color:#00BB8F ;
-  background-color:rgba(0, 187, 143, 5%) ;
+  color: #00bb8f;
+  background-color: rgba(0, 187, 143, 5%);
 }
 
 .card--blue {
-  color:#1125D6 ;
+  color: #1125d6;
   background-color: rgba(17, 37, 214, 5%);
 }
 
 .button {
-  background-color: #303B59;
+  background-color: #303b59;
   width: 315px;
   height: 56px;
   border-radius: 128px;
@@ -180,19 +180,18 @@ body {
   justify-content: center;
 }
 
-@media screen and (min-width:768px) {
-
-  body{
-    background-color:#ECF2FF ;
+@media screen and (min-width: 768px) {
+  body {
+    background-color: #ecf2ff;
   }
 
-  .card{
+  .card {
     width: 736px;
     height: 512px;
     display: flex;
     flex-direction: row;
     background-color: white;
-    border-radius:32px ;
+    border-radius: 32px;
   }
 
   .card__container {
@@ -202,16 +201,16 @@ body {
     display: flex;
     justify-content: space-evenly;
   }
-  
+
   .card__container--circle {
     width: 200px;
     height: 200px;
   }
   .card__tittle {
-    font-size: 24px ;
+    font-size: 24px;
   }
 
-  .card__number{
+  .card__number {
     font-size: 72px;
   }
 
@@ -224,20 +223,20 @@ body {
   }
 
   .card__container--text {
-    margin-top: 28px ;
+    margin-top: 28px;
   }
 
   .card__text {
-    font-size: 16px ;
+    font-size: 16px;
     height: 69px;
     width: 260px;
-    margin-top: 14px ;
+    margin-top: 14px;
     padding-bottom: 55px;
   }
 
   .card__container--white {
     height: 512px;
-    padding-left:40px ;
+    padding-left: 40px;
     padding-bottom: 40px;
     padding-top: 30px;
   }
@@ -248,7 +247,7 @@ body {
   }
 
   .card--small {
-    width:288px ;
+    width: 288px;
   }
 
   .button {
@@ -259,7 +258,4 @@ body {
   .button:hover {
     background-image: var(--primary--color);
   }
-
-  
-
 }
